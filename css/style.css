@@ -1,0 +1,93 @@
+* {
+    padding: none;
+    margin: none;
+    box-sizing: border-box;
+}
+
+header {
+    font-family: 'Pacifico', cursive;
+}
+
+#navbar {
+    background: linear-gradient(270deg, #ff655b, #ff5864, #fd297b);
+    opacity: 0.85;
+}
+
+.pink {
+    color: #ff5864;
+}
+
+.dog-image {
+    width: 321px;
+}
+
+.list {
+    display: flex;
+    padding-top: 0.25rem;
+    padding-bottom: 0.25rem;
+    border-bottom-width: 1px;
+    border-color: #e2e8f0;
+}
+
+.list-image {
+    border-radius: 9999px;
+    width: 6rem;
+    height: 6rem;
+    margin-bottom: 0.5rem;
+}
+
+.wrapper-div {
+    padding-left: 1rem;
+    padding-right: 1rem;
+    margin-top: 2rem;
+    display: flex;
+    align-items: center;
+    width: 100%;
+}
+
+.mid-div {
+    display: flex;
+    flex-direction: column;
+}
+
+.bottom-div {
+    display: flex;
+    align-items: center;
+}
+
+.list-name {
+    color: #1a202c;
+    font-weight: 600;
+    font-size: 1.25rem;
+}
+
+.unlike {
+    display: flex;
+    color: #f56565;
+    width: 2rem;
+    height: 2rem;
+    padding-top: 0.5rem;
+    padding-left: 12rem;
+}
+
+.like {
+    display: flex;
+    color: #48bb78;
+    width: 2rem;
+    height: 2rem;
+    padding-top: 0.5rem;
+    padding-left: 12rem;
+}
+
+.super-like {
+    display: flex;
+    color: #4299e1;
+    width: 2rem;
+    height: 2rem;
+    padding-top: 0.5rem;
+    padding-left: 12rem;
+}
+
+.dog-match {
+    color: #718096;
+}
